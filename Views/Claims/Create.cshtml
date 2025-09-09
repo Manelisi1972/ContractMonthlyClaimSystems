@@ -1,0 +1,27 @@
+﻿@{
+
+	ViewData["Title"] = "Submit Claim";
+}
+
+<div class="container mt-4">
+    <h3>Submit Monthly Claim</h3>
+    <form>
+        <div class="form-group">
+            <label>Lecturer Name</label>
+            <input class="form-control" placeholder="Enter your name" />
+        </div>
+        <div class="form-group mt-3">
+            <label>Claim Period</label>
+            <input type="date" class="form-control" />
+        </div>
+        <div class="form-group mt-3">
+            <label>Amount</label>
+            <input type="number" class="form-control" />
+        </div>
+        <div class="form-group mt-3">
+            <label>Notes</label>
+            <textarea class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success mt-3">Submit Claim</button>
+    </form>
+</div>
