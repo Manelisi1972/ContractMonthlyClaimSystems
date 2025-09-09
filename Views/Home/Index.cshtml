@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-5 text-center">
+    <h2>Welcome to  Contract Monthly Claim System</h2>
+    <p class="lead"> Lectures submit claims and upload documents anytime and anywhere.</p>
+
+    <a class="btn btn-primary btn-lg m-2" asp-controller="Claims" asp-action="Create">
+        Submit New Claim
+    </a>
+
+    <a class="btn btn-secondary btn-lg m-2" asp-controller="Claims" asp-action="Home">
+        Track My Claims
+    </a>
+
+    <a class="btn btn-info btn-lg m-2" asp-controller="Claims" asp-action="Upload">
+        Upload Supporting Documents
+    </a>
+
+
+</div>
